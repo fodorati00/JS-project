@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="colorset.js"></script>
+    <title>Szinkeveres</title>
+</head>
+<body>
+    <div id="menu" class="menu">
+    <form  class="color" >
+        
+        <p>Red:</p>
+        <input class="s" type="range" name="red" id="red" min="0" max="255" value=0 oninput="showVal(this.value,this.name)" onchange="showVal(this.value,this.name)" >
+
+        <p>Green:</p>
+        <input class="s" type="range" name="green" id="green" min="0" max="255" value=0 oninput="showVal(this.value,this.name)" onchange="showVal(this.value,this.name)">
+    
+        <p>Blue:</p>
+        <input class="s" type="range" name="blue" id="blue" min="0" max="255" value=0 oninput="showVal(this.value,this.name)" onchange="showVal(this.value,this.name)">
+        <p>Hexa:</p>
+        <input onclick="textsetc(this.value)" oninput="textsetc(this.value)" type="text" value="#000000" name="hexa" id="h" maxlength="7">
+        
+    </div>
+    </form>
+
+</body>
+</html>

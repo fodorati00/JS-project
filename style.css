@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html { height: 100%; }
+body {height: 100%; }
+
+.menu{
+    display:flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+ 
+    
+}
+
+.color{
+    color:white;
+    font-size: 18px;
+    padding:20px;
+    background-color: rgba(0, 0, 0 , 0.3);
+    opacity: 0.8; 
+    border: solid 3px black;
+    border-radius: 3px;
+    
+}
+
+.color input[type=range]{
+    width: 250px;
+    cursor: pointer;
+
+}
+
+
+
